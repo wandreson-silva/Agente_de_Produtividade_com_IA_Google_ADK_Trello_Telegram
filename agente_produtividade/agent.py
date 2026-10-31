@@ -2,10 +2,14 @@
 Agente de Produtividade
 Integra Google ADK/Gemini, Trello e Telegram.
 
-Estrutura esperada:
-Meus_agentes/
+Agente_de_Produtividade_com_IA_Google_ADK_Trello_Telegram/
+│
 ├── .env
+├── .gitignore
+├── requirements.txt
+│
 └── agente_produtividade/
+    ├── __init__.py
     └── agent.py
 
 Execute a partir da raiz do projeto com:
