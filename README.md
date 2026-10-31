@@ -1,4 +1,3 @@
-# Agente_de_Produtividade_com_IA_Google_ADK_Trello_Telegram
 # 🤖 Agente de Produtividade com IA — Google ADK, Trello e Telegram
 
 ## 📌 Sobre o projeto
