@@ -647,7 +647,7 @@ python -m venv .venv
 Ative o ambiente:
 
 ```powershell
-.\.venv\Scripts\Activate.ps1
+.\.venv\Scripts\Activate
 ```
 
 ### 3. Instalar as dependências
@@ -683,13 +683,13 @@ Utilize credenciais válidas e substitua os valores de exemplo. O nome do modelo
 Na raiz do projeto, com o ambiente virtual ativado:
 
 ```powershell
-adk run agente_produtividade2
+adk run agente_produtividade
 ```
 
 Para iniciar a interface web de desenvolvimento do Google ADK:
 
 ```powershell
-adk web
+adk web --port 8000
 ```
 
 Siga as instruções exibidas no terminal para acessar a interface.
@@ -788,9 +788,6 @@ Este projeto permite explorar conceitos importantes de desenvolvimento e automa�
 
 Engenharia Elétrica | Automação | Tecnologia | Python | Inteligência Artificial | Cibersegurança
 
-## 📄 Licença
-
-Este projeto ainda não especifica uma licença. Antes de permitir reutilização ou distribuição por terceiros, escolha uma licença apropriada e adicione o arquivo `LICENSE` ao repositório.
 
 ---
 
