@@ -13,7 +13,7 @@ Integra Google ADK/Gemini, Trello e Telegram.
 
 Estrutura esperada:
 
-Meus_agentes/
+Agente_de_Produtividade_com_IA_Google_ADK_Trello_Telegram/
 │
 ├── .env
 ├── .gitignore
@@ -483,7 +483,7 @@ def mover_card(
 # ============================================================
 
 root_agent = Agent(
-    name="agente_produtividade2",
+    name="agente_produtividade",
     model=GOOGLE_MODEL,
     description=(
         "Assistente de produtividade integrado ao Trello e Telegram. "
@@ -593,7 +593,7 @@ O módulo `logging` registra informações e erros que ajudam na identificação
 ## 🏗️ Arquitetura do projeto
 
 ```text
-Meus_agentes/
+Agente_de_Produtividade_com_IA_Google_ADK_Trello_Telegram/
 │
 ├── .env
 ├── .gitignore
@@ -630,8 +630,8 @@ Antes de executar o projeto, você precisará de:
 ### 1. Clonar o repositório
 
 ```bash
-git clone https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
-cd SEU-REPOSITORIO
+git https://github.com/wandreson-silva/Agente_de_Produtividade_com_IA_Google_ADK_Trello_Telegram
+cd Agente_de_Produtividade_com_IA_Google_ADK_Trello_Telegram
 ```
 
 Substitua o endereço acima pelo endereço real do seu repositório.
