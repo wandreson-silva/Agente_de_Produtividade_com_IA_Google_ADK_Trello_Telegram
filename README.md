@@ -559,10 +559,10 @@ A ferramenta `criar_card_trello` permite criar cartões na lista **A Fazer**, in
 - Descrição.
 - Data de vencimento opcional.
 
+Após a criação, o sistema tenta enviar uma notificação pelo Telegram.
+
 Lista **A Fazer**
 ![Principais Comandos Linux](./quadro.png)
-
-Após a criação, o sistema tenta enviar uma notificação pelo Telegram.
 
 ### 2. Listar tarefas
 
