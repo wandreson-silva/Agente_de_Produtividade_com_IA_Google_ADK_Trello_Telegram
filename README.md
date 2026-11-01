@@ -559,10 +559,12 @@ A ferramenta `criar_card_trello` permite criar cartões na lista **A Fazer**, in
 - Descrição.
 - Data de vencimento opcional.
 
+![Principais Comandos Linux](./quadro.png)
+
 Após a criação, o sistema tenta enviar uma notificação pelo Telegram.
 
 Lista **A Fazer**
-![Principais Comandos Linux](./quadro.png)
+![Principais Comandos Linux](./quadro1.png)
 
 ### 2. Listar tarefas
 
@@ -577,13 +579,20 @@ A ferramenta `listar_tarefas` consulta os cartões abertos do quadro Trello e re
 
 A ferramenta `mover_card` permite transferir um cartão para outra lista do quadro.
 
+![Principais Comandos Linux](./quadro2.png)
+
 A tarefa pode ser identificada pelo ID ou pelo nome exato. Quando existem tarefas com nomes duplicados, o sistema solicita o identificador para evitar ambiguidades.
+
+
 
 ### 4. Notificações pelo Telegram
 
 A função `_enviar_telegram` envia mensagens por meio da API oficial do Telegram.
 
 As notificações incluem informações sobre tarefas criadas ou movimentadas. Falhas de comunicação são tratadas pela aplicação.
+
+Bot Telegram
+![Principais Comandos Linux](./bot.png)
 
 ### 5. Configuração por variáveis de ambiente
 
